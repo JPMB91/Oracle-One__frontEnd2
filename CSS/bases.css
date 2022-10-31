@@ -1,0 +1,16 @@
+:root{
+    --raleway: "Raleway", sans-serif;
+    --dark-text: #464646;
+    --blue-text: #2A7AE4;
+    --light-background: #FFFFFF;
+    --lightgrey-brackground: #EAF2FD;
+
+
+
+
+}
+
+.container{
+    padding-left: 6%;
+    padding-right: 6%;
+}
