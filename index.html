@@ -9,16 +9,30 @@
     <link href="CSS/reset.css" rel="stylesheet">
     <link href="CSS/header.css" rel="stylesheet">
     <link href="CSS/bases.css" rel="stylesheet">
+    <link href="CSS/banner.css" rel="stylesheet">
+    <link href="CSS/store.css" rel="stylesheet">
+    <link href="CSS/contacto.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>e-commerce</title>
+
+    <title>Alura Geek</title>
 </head>
+
 <body>
     
     <header class="header__principal container">
         <div class="header__logo">
             <img src="Assets/Images/logo.png" alt="Logo de Alura Geek" class="logo_img">
-            <input type="search" name="" placeholder="¿Qué deseas buscar?" id="" class="search__bar">
         </div>
+        
+
+        <div class="search__box">
+            <input type="search" name=""  placeholder="¿Qué deseas buscar?"  class="search__bar">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        
+                        
        
         <div class="header__login">
             <input type="button" value="Login" class="login__button">
@@ -30,68 +44,231 @@
 
     <div class="banner">
         <img src="Assets/Images/banner-image.png" alt="Imagen de banner" class="banner__image">
-        <h2 class="banner_title"></h2>
-        <p class="banner__text"></p>
-        <input type="button" value="" class="banner__button">
+        <h2 class="banner__title">Febrero Promocional</h2>
+        <p class="banner__text">Productos seleccionados con 33% de descuento</p>
+        <input type="button" value="Ver consolas" class="banner__button blue-button">
     </div>
 
-    <section>
-        <div class="item">
-            <h3 class="section__title"></h3>
-            <input type="button" value="Ver Todo" class="item__add">
+   
+        <div class="section__name container">
+            <h3 class="section__title container">Star Wars</h3>
+            <a href="" class="see-all">Ver Todo &#8594</a>
+            
+        </div>
+
+        <section class="store container">
+
             <div class="store__cards">
-                <img src="" alt="" class="item__picture">
+                <img src="Assets/Images/star-wars.png" alt="Cabeza de trooper" class="item__picture">
                 <div class="cards__content">
-                    <h4 class="item__name"></h4>
-                    <p class="item__price"></p>
-                    <input type="button" value="" class="item__button">
+                    <h4 class="item__name">Producto XY</h4>
+                    <p class="item__price">$60.00</p>
+                    <a href="" class="item__button">Ver producto</a>
+
                 </div>
             </div>
             <div class="store__cards">
-                <img src="" alt="" class="item__picture">
+                <img src="Assets/Images/cabezaVader.png" alt="Vader head" class="item__picture">
                 <div class="cards__content">
-                    <h4 class="item__name"></h4>
-                    <p class="item__price"></p>
-                    <input type="button" value="" class="item__button">
+                    <h4 class="item__name">Producto XY</h4>
+                    <p class="item__price">$60.00</p>
+                    <a href="" class="item__button">Ver producto</a>
                 </div>
             </div>
             <div class="store__cards">
-                <img src="" alt="" class="item__picture">
+                <img src="Assets/Images/yoda.png" alt="Imagen de yoda" class="item__picture">
                 <div class="cards__content">
-                    <h4 class="item__name"></h4>
-                    <p class="item__price"></p>
-                    <input type="button" value="" class="item__button">
+                    <h4 class="item__name">Producto XY</h4>
+                    <p class="item__price">$60.00</p>
+                    <a href="" class="item__button">Ver producto</a>
+                </div>
+            </div>
+           
+            <div class="store__cards">
+                <img src="Assets/Images/trooper.png" alt="Imagen de trooper" class="item__picture">
+                <div class="cards__content">
+                    <h4 class="item__name">Producto XY</h4>
+                    <p class="item__price">$60.00</p>
+                    <a href="" class="item__button">Ver producto</a>
                 </div>
             </div>
             <div class="store__cards">
-                <img src="" alt="" class="item__picture">
+                <img src="Assets/Images/babyYoda.png" alt="Juguete de Baby Yoda" class="item__picture">
                 <div class="cards__content">
-                    <h4 class="item__name"></h4>
-                    <p class="item__price"></p>
-                    <input type="button" value="" class="item__button">
+                    <h4 class="item__name">Producto XY</h4>
+                    <p class="item__price">$60.00</p>
+                    <a href="" class="item__button">Ver producto</a>
                 </div>
             </div>
             <div class="store__cards">
-                <img src="" alt="" class="item__picture">
+                <img src="Assets/Images/kyloRen.png" alt="Figura de Kylo Ren" class="item__picture">
                 <div class="cards__content">
-                    <h4 class="item__name"></h4>
-                    <p class="item__price"></p>
-                    <input type="button" value="" class="item__button">
-                </div>
-            </div>
-            <div class="store__cards">
-                <img src="" alt="" class="item__picture">
-                <div class="cards__content">
-                    <h4 class="item__name"></h4>
-                    <p class="item__price"></p>
-                    <input type="button" value="" class="item__button">
+                    <h4 class="item__name">Producto XY</h4>
+                    <p class="item__price">$60.00</p>
+                    <a href="" class="item__button">Ver producto</a>
                 </div>
             </div>
         </div>
     </section>
+
+    <div class="section__name container">
+        <h3 class="section__title container">Consolas</h3>
+        <a href="" class="see-all">Ver Todo &#8594</a>
+        
+    </div>
+
+    <section class="store container">
+
+        <div class="store__cards">
+            <img src="Assets/Images/controller.png" alt="Microsoft Xbox One S" class="item__picture">
+            <div class="cards__content">
+                <h4 class="item__name">Microsoft Xbox One S</h4>
+                <p class="item__price">$60.00</p>
+                <a href="" class="item__button">Ver producto</a>
+
+            </div>
+        </div>
+        <div class="store__cards">
+            <img src="Assets/Images/ps5.png" alt="Imagen de consola PlayStation 5" class="item__picture">
+            <div class="cards__content">
+                <h4 class="item__name">PlayStation 5</h4>
+                <p class="item__price">$60.00</p>
+                <a href="" class="item__button">Ver producto</a>
+            </div>
+        </div>
+        <div class="store__cards">
+            <img src="Assets/Images/atari.png" alt="Imagen de consola Atari" class="item__picture">
+            <div class="cards__content">
+                <h4 class="item__name">Consola Atari</h4>
+                <p class="item__price">$60.00</p>
+                <a href="" class="item__button">Ver producto</a>
+            </div>
+        </div>
+       
+        <div class="store__cards">
+            <img src="Assets/Images/switch-controllers.png" alt="Imagen de controles Nintendo Switch" class="item__picture">
+            <div class="cards__content">
+                <h4 class="item__name">Controles Nintendo Switch</h4>
+                <p class="item__price">$60.00</p>
+                <a href="" class="item__button">Ver producto</a>
+            </div>
+        </div>
+        <div class="store__cards">
+            <img src="Assets/Images/Xbox-series X.png" alt="Imagen de consola Xbox Series X" class="item__picture">
+            <div class="cards__content">
+                <h4 class="item__name">Consola Xbox Series X</h4>
+                <p class="item__price">$60.00</p>
+                <a href="" class="item__button">Ver producto</a>
+            </div>
+        </div>
+        <div class="store__cards">
+            <img src="Assets/Images/gameboy-color.png" alt="Imagen Gameboy color" class="item__picture">
+            <div class="cards__content">
+                <h4 class="item__name">Gameboy Color</h4>
+                <p class="item__price">$60.00</p>
+                <a href="" class="item__button">Ver producto</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    
+    <div class="section__name container">
+        <h3 class="section__title container">Diversos</h3>
+        <a href="" class="see-all">Ver Todo &#8594</a>
+        
+    </div>
+
+    <section class="store container">
+
+        <div class="store__cards">
+            <img src="Assets/Images/camisa-atari.png" alt="Camisa Atari" class="item__picture">
+            <div class="cards__content">
+                <h4 class="item__name">Camisa Atari</h4>
+                <p class="item__price">$60.00</p>
+                <a href="" class="item__button">Ver producto</a>
+
+            </div>
+        </div>
+        <div class="store__cards">
+            <img src="Assets/Images/camisa-snes.png" alt="Camisa Snes" class="item__picture">
+            <div class="cards__content">
+                <h4 class="item__name">Camisa SNES</h4>
+                <p class="item__price">$60.00</p>
+                <a href="" class="item__button">Ver producto</a>
+            </div>
+        </div>
+        <div class="store__cards">
+            <img src="Assets/Images/figura-sonic.png" alt="Figura de Sonic" class="item__picture">
+            <div class="cards__content">
+                <h4 class="item__name">Figura de Sonic</h4>
+                <p class="item__price">$60.00</p>
+                <a href="" class="item__button">Ver producto</a>
+            </div>
+        </div>
+       
+        <div class="store__cards">
+            <img src="Assets/Images/reloj-vintage.png" alt="Reloj despertador vintage" class="item__picture">
+            <div class="cards__content">
+                <h4 class="item__name">Reloj despertador vintage</h4>
+                <p class="item__price">$60.00</p>
+                <a href="" class="item__button">Ver producto</a>
+            </div>
+        </div>
+        <div class="store__cards">
+            <img src="Assets/Images/playstation-vr.png" alt="Playstation VR" class="item__picture">
+            <div class="cards__content">
+                <h4 class="item__name">Playstation VR</h4>
+                <p class="item__price">$60.00</p>
+                <a href="" class="item__button">Ver producto</a>
+            </div>
+        </div>
+        <div class="store__cards">
+            <img src="Assets/Images/pikachu-plushie.png" alt="Plushie de Pikachu" class="item__picture">
+            <div class="cards__content">
+                <h4 class="item__name">Plushie de Pikachu</h4>
+                <p class="item__price">$60.00</p>
+                <a href="" class="item__button">Ver producto</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section class="contact container">
+
+        <div>
+            <img src="Assets/Images/logo.png" alt="Logo Alura Geek" class="logo__img">
+
+        </div>
+        
+        <nav>
+            <ul class="about-us">
+                <li ><a class="about-us__items" href="">Quienes Somos</a></li>
+                <li ><a class="about-us__items" href="">Política de privacidad</a></li>
+                <li ><a class="about-us__items" href="">Programa de fidelidad</a></li>
+                <li ><a class="about-us__items" href="">Nuestras Tiendas</a></li>
+                <li ><a class="about-us__items" href="">Quiero ser franquiciado</a></li>
+                <li ><a class="about-us__items" href="">Anúncie aquí</a></li>
+            </ul>
+        </nav>
+        
+        <div class="contact-us">
+            <p class="contacto__title">Hable con nosotros</p>
+            <input type="text" name="" id="" class="nombre__contacto" placeholder="Nombre">
+            <textarea name="" id="" cols="30" rows="5" class="contacto__message" placeholder="Mensaje"></textarea>
+            <input type="button" value="Enviar mensaje" class="contacto__button blue-button"></section>
+        </div>
+           
+    </section>
+
+
     </main>
     <footer>
-
+        <div class="rodapie">
+            <p>Desarrollado por Juan Maldonado</p>
+            <p>2022</p>
+        </div>
     </footer>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </body>

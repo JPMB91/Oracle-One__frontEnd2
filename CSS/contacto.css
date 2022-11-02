@@ -1,0 +1,40 @@
+
+
+.contact{
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+
+
+.about-us__items{
+    vertical-align: top;
+    line-height: 1.6rem;
+    width: 55%;
+    font-size: 1rem;
+    font-family: var(--raleway);
+    font-weight: 500;
+    color:black
+}
+
+
+
+.contact-us{
+    vertical-align: top;
+    width: 35%;
+}
+
+.contacto__title{
+    color: var(--dark-text) ;
+    font-family: var(--raleway);
+    font-weight: 700;
+    font-size: 1rem ;
+}
+.contacto__message{
+    width: 100%;
+
+}

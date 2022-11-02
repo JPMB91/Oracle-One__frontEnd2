@@ -4,13 +4,36 @@
     --blue-text: #2A7AE4;
     --light-background: #FFFFFF;
     --lightgrey-brackground: #EAF2FD;
+    --grey-text: #A2A2A2;
+    --off-white-background: #F5F5F5;
 
+    
 
 
 
 }
-
+*{
+    box-sizing: border-box;
+}
 .container{
     padding-left: 6%;
     padding-right: 6%;
 }
+
+.blue-button{
+    background-color: var(--blue-text);
+    border-style: none;
+    color: #FFFFFF;
+    font-family: var(--raleway);
+    padding: 0.75rem 0.75rem;
+    
+      
+}
+
+.item__name{
+    font-size: .9rem;
+    font-family: var(--raleway);
+    font-weight: 500;
+    color: var(--dark-text);
+}
+
